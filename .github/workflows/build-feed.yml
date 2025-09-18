@@ -31,3 +31,26 @@ jobs:
       - name: Generate RSS/JSON (login, XPath, last 24h)
         env:
           OTB_EMAIL: ${{ secrets.OTB_EMAIL }}
+          OTB_PASSWORD: ${{ secrets.OTB_PASSWORD }}
+          OTB_URL: https://www.orthobullets.com/Site/ElasticSearch/StandardSearchTiles?contentType=5&s=1,2,3,225,6,7,10
+          OTB_XPATH: //div[contains(@class,"dashboard-item--case")]//a[@href]
+          OTB_OUTPUT: dist/orthobullets_cases.xml
+          OTB_JSON: dist/orthobullets_cases.json
+          OTB_STATE: dist/orthobullets_cases_seen.json
+          OTB_UA: Mozilla/5.0 (Orthobullets RSS Bot)
+          OTB_MAX_ITEMS: "60"
+          # set to "1" if you want pages without a detectable date to be included
+          OTB_INCLUDE_UNDATED: "0"
+        run: |
+          mkdir -p dist
+          python3 orthobullets_cases_rss.py
+          echo "Produced files:"
+          ls -l dist
+
+      - name: Publish to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: dist
+          enable_jekyll: false
