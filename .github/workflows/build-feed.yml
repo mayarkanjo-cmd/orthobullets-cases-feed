@@ -1,12 +1,12 @@
-name: Build & Publish Orthobullets Cases RSS (Login, 24h filter, verbose)
+name: Build & Publish Orthobullets Cases RSS (Login, 24h filter, robust)
 
 permissions:
   contents: write
 
 on:
   schedule:
-    - cron: "0 5 * * *"  # 06:00 Berlin during summer (UTC+2 ≈ 04:00 UTC? adjust if needed)
-    - cron: "0 4 * * *"  # 06:00 Berlin during winter (UTC+1)
+    - cron: "0 5 * * *"  # 06:00 Berlin (summer)
+    - cron: "0 4 * * *"  # 06:00 Berlin (winter)
   workflow_dispatch: {}
 
 jobs:
@@ -40,19 +40,18 @@ jobs:
           OTB_STATE: dist/orthobullets_cases_seen.json
           OTB_UA: Mozilla/5.0 (Orthobullets RSS Bot)
           OTB_MAX_ITEMS: "60"
-          OTB_INCLUDE_UNDATED: "0"  # keep "0" to strictly enforce last 24h
+          OTB_INCLUDE_UNDATED: "0"   # set "1" to include pages without date
+          OTB_DEBUG: "1"
         run: |
           set -eux
-          python -V
           mkdir -p dist
-          echo "Running scraper..."
-          python3 orthobullets_cases_rss.py
+          python3 -u orthobullets_cases_rss.py
           echo "Produced files in ./dist:"
           ls -lah dist || true
           echo "Show first lines (if exist):"
           [ -f dist/orthobullets_cases.xml ] && head -n 20 dist/orthobullets_cases.xml || echo "XML missing"
           [ -f dist/orthobullets_cases.json ] && head -n 40 dist/orthobullets_cases.json || echo "JSON missing"
-          # Hard fail if files were not created
+          # Ensure the two files exist so publish step succeeds
           test -f dist/orthobullets_cases.xml
           test -f dist/orthobullets_cases.json
 
