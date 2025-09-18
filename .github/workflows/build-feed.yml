@@ -1,16 +1,14 @@
 name: Build & Publish Orthobullets Cases RSS
 
-# ✅ allow the action to push to gh-pages
+# Allow the workflow to push to gh-pages
 permissions:
   contents: write
 
 on:
-  # keep manual trigger or your schedule
-  workflow_dispatch:
-  # If you also want 05:30 Berlin every day, add:
-  # schedule:
-  #   - cron: "30 3 * * *"  # 03:30 UTC ≈ 05:30 CEST
-  #   - cron: "30 4 * * *"  # 04:30 UTC ≈ 05:30 CET
+  workflow_dispatch:     # run manually
+  # schedule:            # uncomment if you want daily at 05:30 Berlin
+  #   - cron: "30 3 * * *"  # 05:30 CEST (UTC+2, summer)
+  #   - cron: "30 4 * * *"  # 05:30 CET (UTC+1, winter)
 
 jobs:
   build:
@@ -25,15 +23,15 @@ jobs:
           python-version: "3.11"
 
       - name: Install deps
-       run: pip install requests beautifulsoup4 lxml
+        run: pip install requests beautifulsoup4 lxml
 
       - name: Generate RSS
         env:
-          OTB_COOKIE: ${{ secrets.OTB_COOKIE }}
-          # Use dashboard URL (worked for you)
-          OTB_URL: https://www.orthobullets.com/user/dashboard?id=all
+          OTB_COOKIE: ${{ secrets.OTB_COOKIE }}   # optional if login needed
+          OTB_URL: https://www.orthobullets.com/Site/ElasticSearch/StandardSearchTiles?contentType=5&s=1,2,3,225,6,7,10
           OTB_OUTPUT: dist/orthobullets_cases.xml
           OTB_STATE: dist/orthobullets_cases_seen.json
+          OTB_XPATH: '//div[contains(@class,"dashboard-item--case")]//a[@href]'
         run: |
           mkdir -p dist
           python3 orthobullets_cases_rss.py
