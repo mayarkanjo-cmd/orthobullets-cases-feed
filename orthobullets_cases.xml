@@ -1,309 +1,4692 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
-<channel>
-<title>Orthobullets Cases (from StandardSearchTiles)</title>
-<link>https://www.orthobullets.com/user/dashboard?id=all</link>
-<description>RSS generated from Orthobullets ElasticSearch StandardSearchTiles endpoint.</description>
-<lastBuildDate>Thu, 18 Sep 2025 20:54:28 +0000</lastBuildDate>
+<rss version="2.0"><channel>
+<title>Orthobullets Case Feed (XPath)</title>
+<link>https://www.orthobullets.com/Site/ElasticSearch/StandardSearchTiles?contentType=5&s=1,2,3,225,6,7,10</link>
+<description>RSS generated from specific XPath of Orthobullets</description>
+<lastBuildDate>Thu, 18 Sep 2025 21:08:39 +0000</lastBuildDate>
 <item>
-<title>ORTHO BULLETS</title>
-<link>https://www.orthobullets.com</link>
-<guid isPermaLink='false'>dc2afca40831c779355ea082c70b8042e6bbaccf</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>A
+                
+        
+
+        
+            
+                1
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+
+                    
+                        A
+                    
+            
+
+            
+                
+                        
+                                    
+            Emplify Health
+        
+
+                        
+
+                    
+                        Painful "Locked" Knee in 27M
+                        (C102792)
+                    
+
+                    
+        
+            
+                
+                
+                    Daniel Liechti
+                    Emplify Health Titletown Sports Medicine and Orthopedics
+                
+            
+        
+        
+            
+                
+                
+                    Tyler Ehrke
+                    Medical College of Wisconsin
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Knee &amp; Sports
+                            
+                        
+
+                            
+                                
+                                    - Meniscal Tears
+                                
+                            
+                    
+
+
+
+                
+
+                
+                    
+                        1 week ago
+                    
+
+                    
+                        4492 
+                    
+
+                    
+                        19 
+                    
+
+                    
+                        108 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/ca4407bf-ff0b-46e9-9bea-83ba612e9bfb</link>
+<guid isPermaLink='false'>9429741960da2bd970a769c40413d98aa853a829</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Free CME</title>
-<link>https://www.orthobullets.com/anatomy/12292/2016-point-of-care-learning-cme</link>
-<guid isPermaLink='false'>b7c3eba425fe762ee12667fc650494856a482db0</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>E
+                
+        
+
+        
+            
+                2
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+            
+    
+
+                    
+                        E
+                    
+            
+
+            
+                
+
+                    
+                        Distal fibular fracture
+                        (C102788)
+                    
+
+                    
+        
+            
+                
+                
+                    amasy magdy
+                    khartoum, SD
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Trauma
+                            
+                        
+
+                    
+
+
+
+                
+
+                
+                    
+                        3 weeks ago
+                    
+
+                    
+                        78 
+                    
+
+                    
+                        10 
+                    
+
+                    
+                        3 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/a4f3f18c-f912-40ec-8025-12af3e950f17</link>
+<guid isPermaLink='false'>70793d9ebf313d167e4db2bf7b754ec3e0c26203</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Join now</title>
-<link>https://www.orthobullets.com/register</link>
-<guid isPermaLink='false'>5262c5a751fd08419b748549850ee32ef78c01eb</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>A
+                
+        
+
+        
+            
+                3
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+
+                    
+                        A
+                    
+            
+
+            
+                
+                        
+                                    
+            Sana Kliniken Oberfanken
+        
+
+                        
+
+                    
+                        Complex Proximal Tibia Fracture in 53M
+                        (C102786)
+                    
+
+                    
+        
+            
+                
+                
+                    Maximilian Heitmann
+                    Sana Kliniken Oberfanken
+                
+            
+        
+        
+            
+                
+                
+                    Eckard Hölscher
+                    Helios Klinikum Berlin-Buch
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Trauma
+                            
+                        
+
+                            
+                                
+                                    - Tibial Plateau Fractures
+                                
+                            
+                    
+
+
+
+                
+
+                
+                    
+                        4 weeks ago
+                    
+
+                    
+                        4756 
+                    
+
+                    
+                        34 
+                    
+
+                    
+                        143 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/ca95d4a1-7b37-4f47-ad89-7b341748b49c</link>
+<guid isPermaLink='false'>e99a5a4aff0e0ad08b31c54c60ae3fc9c383d3ab</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Login</title>
-<link>https://www.orthobullets.com/login?ReturnUrl=%2ftopic%2fdashboard%3fid%3d0%26specialty%3d0%26expandLeftMenu%3dtrue</link>
-<guid isPermaLink='false'>0d72f5b53a0f0929840e7e291d34b93d91e3d749</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>E
+                
+        
+
+        
+            
+                4
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+            
+    
+
+                    
+                        E
+                    
+            
+
+            
+                
+
+                    
+                        Lateral condyle fracture humerus
+                        (C102785)
+                    
+
+                    
+        
+            
+                
+                
+                    Zay Yeh
+                    Newyork, US
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Trauma
+                            
+                        
+
+                            
+                                
+                                    - Distal Humerus Fractures
+                                
+                            
+                    
+
+
+
+                
+
+                
+                    
+                        4 weeks ago
+                    
+
+                    
+                        0 
+                    
+
+                    
+                        0 
+                    
+
+                    
+                        0 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/dbef9bdc-dcc7-4471-b405-9c447e040419</link>
+<guid isPermaLink='false'>f665d605a6d92b80b5f9bff551267ac7629a9228</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>About Bullet Health</title>
-<link>https://www.orthobullets.com/about</link>
-<guid isPermaLink='false'>f19afa2549e42bdeaa9446fa4b23117f17a3a269</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>A
+                
+        
+
+        
+            
+                5
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+
+                    
+                        A
+                    
+            
+
+            
+                
+                        
+                                    
+            University Hospitals
+        
+
+                        
+
+                    
+                        Recurrent Shoulder Instability s/p RSA in 72M
+                        (C102784)
+                    
+
+                    
+        
+            
+                
+                
+                    Robert Gillespie
+                    University Hospitals Ahuja Medical Center
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Shoulder &amp; Elbow
+                            
+                        
+
+                            
+                                
+                                    - Reverse Shoulder Arthroplasty
+                                
+                            
+                    
+
+
+
+                
+
+                
+                    
+                        4 weeks ago
+                    
+
+                    
+                        1893 
+                    
+
+                    
+                        9 
+                    
+
+                    
+                        61 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/b3aa67d0-47f4-47cd-8851-9119b3bb520a</link>
+<guid isPermaLink='false'>02370027c18df9a266d256b4512406560413c88d</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Events</title>
-<link>https://www.orthobullets.com/Site/ElasticSearch/StandardSearchTiles?contentType=50</link>
-<guid isPermaLink='false'>7a32d11a88f990b0ea490c1290f0b19f86c172be</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>A
+                
+        
+
+        
+            
+                6
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+
+                    
+                        A
+                    
+            
+
+            
+                
+
+                    
+                        Vertical Shear Pelvic Ring Injury in 38M
+                        (C102781)
+                    
+
+                    
+        
+            
+                
+                
+                    Krishna C Vemulapalli
+                    Tulane University
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Trauma
+                            
+                        
+
+                            
+                                
+                                    - Pelvic Ring Fractures
+                                
+                            
+                    
+
+
+
+                
+
+                
+                    
+                        8/12/2025
+                    
+
+                    
+                        4003 
+                    
+
+                    
+                        24 
+                    
+
+                    
+                        116 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/c82d89fe-36e2-438e-bb87-0e6c700a16e8</link>
+<guid isPermaLink='false'>91767055bfae1618bff5b67d0c809a695cda568b</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>My CardMaster</title>
-<link>https://www.orthobullets.com/Site/FlashCardMaster</link>
-<guid isPermaLink='false'>1e487d90926b2b100b41509fcea21d0cec0af90c</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>B
+                
+        
+
+        
+            
+                7
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+
+                    
+                        B
+                    
+            
+
+            
+                
+                        
+                                    
+            Total Health
+        
+
+                        
+
+                    
+                        Chronic Posterior Shoulder Dislocation in 60M
+                        (C102780)
+                    
+
+                    
+        
+            
+                
+                
+                    Alwin Almeida
+                    Total Health
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Shoulder &amp; Elbow
+                            
+                        
+
+                            
+                                
+                                    - Posterior Shoulder Instability &amp; Dislocation
+                                
+                            
+                    
+
+
+
+                
+
+                
+                    
+                        8/11/2025
+                    
+
+                    
+                        92 
+                    
+
+                    
+                        28 
+                    
+
+                    
+                        10 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/936e96f8-99c6-4ab6-9596-c64119f2448b</link>
+<guid isPermaLink='false'>b8369202b089edd3b0cf89c740c9debeb92a9df7</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Create Card Deck</title>
-<link>https://www.orthobullets.com/flashcard/createFlashCardDesk.aspx</link>
-<guid isPermaLink='false'>7717558bdcfcca0d0452c2558f2c12adf6315161</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>A
+                
+        
+
+        
+            
+                8
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+
+                    
+                        A
+                    
+            
+
+            
+                
+
+                    
+                        Acute Rotator Cuff Tear in 64M
+                        (C102778)
+                    
+
+                    
+        
+            
+                
+                
+                    Grant E. Garrigues
+                    Midwest Orthopaedics at Rush
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Shoulder &amp; Elbow
+                            
+                        
+
+                            
+                                
+                                    - Rotator Cuff Tears
+                                
+                            
+                    
+
+
+
+                
+
+                
+                    
+                        7/28/2025
+                    
+
+                    
+                        6514 
+                    
+
+                    
+                        19 
+                    
+
+                    
+                        62 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/b0534ff4-317f-404b-9323-7bd2a4564218</link>
+<guid isPermaLink='false'>5fade63ca7c4d81f5ec4306c8f9efc41d8c4f39f</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Enter Deck Code</title>
-<link>https://www.orthobullets.com/Site/FlashCardMaster/Start</link>
-<guid isPermaLink='false'>ab552f48a69d41ba71cb2f82ab501f72c3d74ae3</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>A
+                
+        
+
+        
+            
+                9
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+
+                    
+                        A
+                    
+            
+
+            
+                
+                        
+                                    
+            Cedars-Sinai Orthopaedics
+        
+
+                        
+
+                    
+                        Subacute Segmental Tibia-Fibula Fx in Schizophrenic 65M
+                        (C102776)
+                    
+
+                    
+        
+            
+                
+                
+                    Charles Moon
+                    Cedars-Sinai
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Trauma
+                            
+                        
+
+                            
+                                
+                                    - Tibial Shaft Fractures
+                                
+                            
+                    
+
+
+
+                
+
+                
+                    
+                        7/28/2025
+                    
+
+                    
+                        5076 
+                    
+
+                    
+                        17 
+                    
+
+                    
+                        162 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/34179602-6d1c-43b9-beb4-bdf45336a1e3</link>
+<guid isPermaLink='false'>1b1e19236a598c6339981d23a6f687dcedae533d</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Active Deck</title>
-<link>https://www.orthobullets.com/Site/FlashCardDesk/ActiveFlashCardDeck</link>
-<guid isPermaLink='false'>2ff541f41434616f2b6c394f77e4135175174aa3</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>A
+                
+        
+
+        
+            
+                10
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+
+                    
+                        A
+                    
+            
+
+            
+                
+                        
+                                    
+            Florida Orthopaedic Institute
+        
+
+                        
+
+                    
+                        Wrist Pain s/p Total Wrist Arthroplasty in 70M
+                        (C102773)
+                    
+
+                    
+        
+            
+                
+                
+                    Michael Doarn
+                    Florida Orthopaedic Institute
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Hand
+                            
+                        
+
+                            
+                                
+                                    - Scaphoid Lunate Advanced Collapse (SLAC)
+                                
+                            
+                    
+
+
+
+                
+
+                
+                    
+                        7/21/2025
+                    
+
+                    
+                        1838 
+                    
+
+                    
+                        3 
+                    
+
+                    
+                        55 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/d67906ea-82ef-4cea-a27a-7c159704a962</link>
+<guid isPermaLink='false'>223f28013e273dd47af30b8cd89c136a27ecfc7a</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Tagged Cards</title>
-<link>https://www.orthobullets.com/Site/TaggedContent?show=flashcards</link>
-<guid isPermaLink='false'>145992eaf542f702db87acfc4dc534de858f769b</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>E
+                
+        
+
+        
+            
+                11
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+
+                    
+                        E
+                    
+            
+
+            
+                
+
+                    
+                        closed segmented shaft femur fracture
+                        (C102771)
+                    
+
+                    
+        
+            
+                
+                
+                    Mohamed Abdelaliem
+                    ALIEM ORTHO clinics الدكتور محمد عبد العليم
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Trauma
+                            
+                        
+
+                            
+                                
+                                    - Femoral Shaft Fractures
+                                
+                            
+                    
+
+
+
+                
+
+                
+                    
+                        7/17/2025
+                    
+
+                    
+                        475 
+                    
+
+                    
+                        5 
+                    
+
+                    
+                        4 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/38a71bfb-807d-4e32-8d13-15265a7f2b6d</link>
+<guid isPermaLink='false'>7ab655f3eb6883444f2bb3baca22549215f65e20</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Anconeus Spaced Repetition</title>
-<link>https://www.orthobullets.com/products/12763/peak-premium-subscription</link>
-<guid isPermaLink='false'>7fcc3398decdc3f8f0ab71398dc206fdc7a79148</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>A
+                
+        
+
+        
+            
+                12
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+
+                    
+                        A
+                    
+            
+
+            
+                
+                        
+                                    
+            Florida Orthopaedic Institute
+        
+
+                        
+
+                    
+                        Progressive Wrist Pain in 70M
+                        (C102769)
+                    
+
+                    
+        
+            
+                
+                
+                    Michael Doarn
+                    Florida Orthopaedic Institute
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Hand
+                            
+                        
+
+                            
+                                
+                                    - Scaphoid Lunate Advanced Collapse (SLAC)
+                                
+                            
+                    
+
+
+
+                
+
+                
+                    
+                        7/10/2025
+                    
+
+                    
+                        4415 
+                    
+
+                    
+                        23 
+                    
+
+                    
+                        82 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/a38a86ef-225c-4934-b028-bd0f9076ba81</link>
+<guid isPermaLink='false'>be77a02c75f62449d9f50eff00e0b659362d0bf0</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Search Questions</title>
-<link>https://www.orthobullets.com/Site/ElasticSearch/StandardSearchList?contentType=2</link>
-<guid isPermaLink='false'>a194a8089d6689a1c3b0be72ebb0370a36eaad5c</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>E
+                
+        
+
+        
+            
+                13
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+
+                    
+                        E
+                    
+            
+
+            
+                
+
+                    
+                        Limb Salvage in Gustilo-Anderson IIIb Injury Using the Ring Fixator (Ilizarov Method)
+                        (C102768)
+                    
+
+                    
+        
+            
+                
+                
+                    Filip Maljkovic
+                    Institute for orthopedic surgery Banjica
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Trauma
+                            
+                        
+
+                    
+
+
+
+                
+
+                
+                    
+                        7/10/2025
+                    
+
+                    
+                        0 
+                    
+
+                    
+                        0 
+                    
+
+                    
+                        3 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/b063a3bb-3a24-448c-9bec-184f8dc5ba98</link>
+<guid isPermaLink='false'>3daf390df6dcef63f52ceaf355b7186ebf1f1855</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>My TestMaster</title>
-<link>https://www.orthobullets.com/qbank/mytests</link>
-<guid isPermaLink='false'>a4a6dc831711b0d9a10ce2e169868b0a51c76932</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>A
+                
+        
+
+        
+            
+                14
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+
+                    
+                        A
+                    
+            
+
+            
+                
+                        
+                                    
+            ACE Orthopedic Institute
+        
+
+                        
+
+                    
+                        Right Shoulder Pain in 45M
+                        (C102767)
+                    
+
+                    
+        
+            
+                
+                
+                    Daniel C. Acevedo
+                    ACE Orthopedic Institute
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Shoulder &amp; Elbow
+                            
+                        
+
+                            
+                                
+                                    - Glenohumeral Arthritis (Shoulder Arthritis)
+                                
+                            
+                    
+
+
+
+                
+
+                
+                    
+                        7/7/2025
+                    
+
+                    
+                        4734 
+                    
+
+                    
+                        43 
+                    
+
+                    
+                        65 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/a35a1f1c-c508-41e0-b1d3-f9486a9462df</link>
+<guid isPermaLink='false'>15a0a88a61cf54c64a05f6b708fe1da3d968a716</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Create Personal Test</title>
-<link>https://www.orthobullets.com/qbank/createGroupTest.aspx</link>
-<guid isPermaLink='false'>ecea5e9113195a75c7e48f17d976a3026d237ee8</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>A
+                
+        
+
+        
+            
+                15
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+
+                    
+                        A
+                    
+            
+
+            
+                
+                        
+                                    
+            Houston Methodist Orthopedics &amp; Sports Medicine
+        
+
+                        
+
+                    
+                        Ipsilateral Patellar Tendon Rupture and Distal Radius Fracture in 33M
+                        (C102766)
+                    
+
+                    
+        
+            
+                
+                
+                    Korsh Jafarnia
+                    houston, texas, US
+                
+            
+        
+        
+            
+                
+                
+                    Austin Q. Nguyen
+                    Houston Methodist Orthopedics &amp; Sports Medicine
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Knee &amp; Sports
+                            
+                        
+
+                            
+                                
+                                    - Patellar Tendon Rupture
+                                
+                            
+                    
+
+
+
+                
+
+                
+                    
+                        6/27/2025
+                    
+
+                    
+                        5545 
+                    
+
+                    
+                        78 
+                    
+
+                    
+                        166 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/7c7e6ace-8fa5-429f-a827-5f5a2875c4a7</link>
+<guid isPermaLink='false'>e3e4529cb6a2d8be7f7d23f21d7a1d331111313d</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Create Group Test</title>
-<link>https://www.orthobullets.com/qbank/createGroupTest.aspx?purpose=GroupTest</link>
-<guid isPermaLink='false'>792fde949fde56045e0eddec32b3bec28db5f546</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>E
+                
+        
+
+        
+            
+                16
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+            
+    
+
+                    
+                        E
+                    
+            
+
+            
+                
+
+                    
+                        Chronic left L5 radiculopathy, 
+                        (C102763)
+                    
+
+                    
+        
+            
+                
+                
+                    Na DI
+                    , CH
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Trauma
+                            
+                        
+
+                    
+
+
+
+                
+
+                
+                    
+                        6/20/2025
+                    
+
+                    
+                        0 
+                    
+
+                    
+                        0 
+                    
+
+                    
+                        0 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/0b07fa5f-95cd-4bd8-a14d-8ed0a7076a47</link>
+<guid isPermaLink='false'>2deaceddc38e292661de8b1218dd4e88a467f530</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Enter Test Code</title>
-<link>https://www.orthobullets.com/qbank/start</link>
-<guid isPermaLink='false'>14e523d97d7b37274b51f93a34171f7c906b41a5</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>A
+                
+        
+
+        
+            
+                17
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+
+                    
+                        A
+                    
+            
+
+            
+                
+                        
+                                    
+            Beth Israel Lahey Health
+        
+
+                        
+
+                    
+                        Distal Third Tibia Fracture in 67M
+                        (C102762)
+                    
+
+                    
+        
+            
+                
+                
+                    Eric Swart
+                    Lahey Hospital &amp; Medical Center
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Trauma
+                            
+                        
+
+                            
+                                
+                                    - Tibial Plafond Fractures
+                                
+                            
+                    
+
+
+
+                
+
+                
+                    
+                        6/19/2025
+                    
+
+                    
+                        5614 
+                    
+
+                    
+                        20 
+                    
+
+                    
+                        102 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/126d4b0e-a081-4757-b93c-2c90f7e13c47</link>
+<guid isPermaLink='false'>f9c64abd23c366eca94a520d91c48b3b6079f1da</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Active Test</title>
-<link>https://www.orthobullets.com/currenttest</link>
-<guid isPermaLink='false'>bb0d6a73b0430231ed1eeeaea8bdc1fe92f255e7</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>E
+                
+        
+
+        
+            
+                18
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+
+                    
+                        E
+                    
+            
+
+            
+                
+
+                    
+                        Galeazzi Fracture with Distal Ulna Fracture in an 18M
+                        (C102760)
+                    
+
+                    
+        
+            
+                
+                
+                    Anas Malkawi
+                    Kreiskrankenhaus Mechernich 
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Trauma
+                            
+                        
+
+                    
+
+
+
+                
+
+                
+                    
+                        6/15/2025
+                    
+
+                    
+                        0 
+                    
+
+                    
+                        0 
+                    
+
+                    
+                        5 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/c881e710-ddcb-483f-bcde-31e6c6c48397</link>
+<guid isPermaLink='false'>43d8dccc5667836cd5ca1febfd9a26d43e651ab1</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Search Cases</title>
-<link>https://www.orthobullets.com/Site/ElasticSearch/StandardSearchTiles?contentType=5</link>
-<guid isPermaLink='false'>dbd9c6a8d9c3751b6110e0446976a0c6788946d9</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>A
+                
+        
+
+        
+            
+                19
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+
+                    
+                        A
+                    
+            
+
+            
+                
+
+                    
+                        Distal Radius &amp; Ulna Fracture in 38M
+                        (C102758)
+                    
+
+                    
+        
+            
+                
+                
+                    Surendra Shetty
+                    NMC Specialty Hospitals
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Trauma
+                            
+                        
+
+                            
+                                
+                                    - Distal Radius Fractures
+                                
+                            
+                    
+
+
+
+                
+
+                
+                    
+                        6/8/2025
+                    
+
+                    
+                        5124 
+                    
+
+                    
+                        49 
+                    
+
+                    
+                        167 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/6b8753aa-350c-4cd3-a5a4-6b4d6a65f8b8</link>
+<guid isPermaLink='false'>508f78e29a85f8b7d32400790133797457211757</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Trauma</title>
-<link>https://www.orthobullets.com/Site/ElasticSearch/StandardSearchTiles?contentType=5&amp;s=1</link>
-<guid isPermaLink='false'>244e4ca4f38544466e63933b5a23084bab3d95cb</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>Case
+    
+
+                
+                    E
+                
+        
+
+        
+            
+                20
+            
+            
+                
+                    
+                
+                    
+            
+                
+            
+            Case
+    
+
+                    
+                        E
+                    
+            
+
+            
+                
+
+                    
+                        Hip Fracture gone wrong 
+                        (C102756)
+                    
+
+                    
+        
+            
+                
+                
+                    SAMARTH MITTAL
+                    NEW DELHI, IN
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Trauma
+                            
+                        
+
+                    
+
+
+
+                
+
+                
+                    
+                        6/7/2025
+                    
+
+                    
+                        0 
+                    
+
+                    
+                        0 
+                    
+
+                    
+                        0 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/fd04915c-4bf1-4ff4-b5a7-22e48e30fc85</link>
+<guid isPermaLink='false'>f86e881431458c44635ccd964e5584ba7e8842d5</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Popular cases</title>
-<link>https://www.orthobullets.com/Site/ElasticSearch/StandardSearchTiles?contentType=5&amp;s=1&amp;sort=top</link>
-<guid isPermaLink='false'>177f362bcbc1110eee34cff35bd847e54c1e6afc</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>A
+                
+        
+
+        
+            
+                21
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+
+                    
+                        A
+                    
+            
+
+            
+                
+                        
+                                    
+            Methodist Health System
+        
+
+                        
+
+                    
+                        Proximal Ulna and Radial Head Fracture in 63F
+                        (C102754)
+                    
+
+                    
+        
+            
+                
+                
+                    Edgar Araiza
+                    Methodist Health System
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Trauma
+                            
+                        
+
+                            
+                                
+                                    - Olecranon Fractures
+                                
+                            
+                    
+
+
+
+                
+
+                
+                    
+                        6/4/2025
+                    
+
+                    
+                        4256 
+                    
+
+                    
+                        29 
+                    
+
+                    
+                        198 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/b88ca2b0-4be3-4400-afbe-659875db22a6</link>
+<guid isPermaLink='false'>71a4dfdea1e960d57095bb994da628766f45620a</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Relevant cases</title>
-<link>https://www.orthobullets.com/Site/ElasticSearch/StandardSearchTiles?contentType=5&amp;s=1&amp;sort=relevance</link>
-<guid isPermaLink='false'>c9f029f8806717a3055cae77ef73ec025e4127e7</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>A
+                
+        
+
+        
+            
+                22
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+
+                    
+                        A
+                    
+            
+
+            
+                
+                        
+                                    
+            Methodist Health System
+        
+
+                        
+
+                    
+                        Distal Humerus Fracture in 62M
+                        (C102753)
+                    
+
+                    
+        
+            
+                
+                
+                    Edgar Araiza
+                    Methodist Health System
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Trauma
+                            
+                        
+
+                            
+                                
+                                    - Distal Humerus Fractures
+                                
+                            
+                    
+
+
+
+                
+
+                
+                    
+                        6/4/2025
+                    
+
+                    
+                        5569 
+                    
+
+                    
+                        6 
+                    
+
+                    
+                        192 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/1d9d2126-a2c0-4b8a-a330-01b39f45cb38</link>
+<guid isPermaLink='false'>34047e599a1b93f13c724e09478f56cfc9250684</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Spine</title>
-<link>https://www.orthobullets.com/Site/ElasticSearch/StandardSearchTiles?contentType=5&amp;s=2</link>
-<guid isPermaLink='false'>a63102aaec2411bfdcc618a32be6168b78bcad53</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>E
+                
+        
+
+        
+            
+                23
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+
+                    
+                        E
+                    
+            
+
+            
+                
+
+                    
+                        Complications during anterior hip replacements curve
+                        (C102750)
+                    
+
+                    
+        
+            
+                
+                
+                    Francisco Torres
+                    Mexico City, MX
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Trauma
+                            
+                        
+
+                    
+
+
+
+                
+
+                
+                    
+                        6/4/2025
+                    
+
+                    
+                        0 
+                    
+
+                    
+                        0 
+                    
+
+                    
+                        0 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/a7f33c53-2d96-4f7e-a2cd-0874d0bbe539</link>
+<guid isPermaLink='false'>033df2ad2e3774efe855ad47f9ed4fc68eaabd3f</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Popular cases</title>
-<link>https://www.orthobullets.com/Site/ElasticSearch/StandardSearchTiles?contentType=5&amp;s=2&amp;sort=top</link>
-<guid isPermaLink='false'>9f20066b743704c959b30cedace72fc164a81271</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>E
+                
+        
+
+        
+            
+                24
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+
+                    
+                        E
+                    
+            
+
+            
+                
+
+                    
+                        Undertreated Open Complex Monteggia Elbow Fracture-Dislocation presenting with Elbow Stiffness and Dysfunction
+                        (C102749)
+                    
+
+                    
+        
+            
+                
+                
+                    Alejandro Badia
+                    Badia Hand to Shoulder Center
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Trauma
+                            
+                        
+
+                    
+
+
+
+                
+
+                
+                    
+                        5/28/2025
+                    
+
+                    
+                        0 
+                    
+
+                    
+                        0 
+                    
+
+                    
+                        4 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/191acd85-ba36-45f2-ad75-c0a176426bec</link>
+<guid isPermaLink='false'>b877e827467f0802b796337feaaedfc73b5dec51</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Relevant cases</title>
-<link>https://www.orthobullets.com/Site/ElasticSearch/StandardSearchTiles?contentType=5&amp;s=2&amp;sort=relevance</link>
-<guid isPermaLink='false'>0200c7ef11070f3d6e9e058e8a82d1a8800e4b1c</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>A
+                
+        
+
+        
+            
+                25
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+
+                    
+                        A
+                    
+            
+
+            
+                
+                        
+                                    
+            Dr Sulaiman Al-Habib Hospital Dubai
+        
+
+                        
+
+                    
+                        Multifragmentary Humeral Shaft Fracture in 78M
+                        (C102748)
+                    
+
+                    
+        
+            
+                
+                
+                    Loiy Alkhatib
+                    Dubai, AE
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Trauma
+                            
+                        
+
+                            
+                                
+                                    - Humeral Shaft Fractures
+                                
+                            
+                    
+
+
+
+                
+
+                
+                    
+                        5/28/2025
+                    
+
+                    
+                        6800 
+                    
+
+                    
+                        90 
+                    
+
+                    
+                        226 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/c97a36ca-aabf-44ba-b0d5-9e0fa0085d4e</link>
+<guid isPermaLink='false'>4484f0931ca94f6ac2e9dfbc00bf08c3daac16e9</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Shoulder &amp; Elbow</title>
-<link>https://www.orthobullets.com/Site/ElasticSearch/StandardSearchTiles?contentType=5&amp;s=3</link>
-<guid isPermaLink='false'>dc0bb63807b0d4c758bdfdca3fdb6805843775f3</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>E
+                
+        
+
+        
+            
+                26
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+
+                    
+                        E
+                    
+            
+
+            
+                
+
+                    
+                        Subtrochanteric Femur Fracture with severe Hip Osteoarthritis in 84F
+                        (C102746)
+                    
+
+                    
+        
+            
+                
+                
+                    Anas Malkawi
+                    Kreiskrankenhaus Mechernich 
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Trauma
+                            
+                        
+
+                            
+                                
+                                    - Subtrochanteric Fractures
+                                
+                            
+                    
+
+
+
+                
+
+                
+                    
+                        5/25/2025
+                    
+
+                    
+                        0 
+                    
+
+                    
+                        0 
+                    
+
+                    
+                        1 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/79d29283-612c-4e6f-a240-2332ab4a2f55</link>
+<guid isPermaLink='false'>600f2327a120725b1fa0261e232f77eac6c923c8</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Popular cases</title>
-<link>https://www.orthobullets.com/Site/ElasticSearch/StandardSearchTiles?contentType=5&amp;s=3&amp;sort=top</link>
-<guid isPermaLink='false'>af971ca4a3020f4ca8df461c283eeb510f60907b</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>A
+                
+        
+
+        
+            
+                27
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+
+                    
+                        A
+                    
+            
+
+            
+                
+                        
+                                    
+            University Hospitals
+        
+
+                        
+
+                    
+                        Posterior Pilon Fracture in 63F
+                        (C102742)
+                    
+
+                    
+        
+            
+                
+                
+                    Rob Wetzel
+                    University Hospitals Cleveland Medical Center
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Trauma
+                            
+                        
+
+                            
+                                
+                                    - Ankle Fractures
+                                
+                            
+                    
+
+
+
+                
+
+                
+                    
+                        5/9/2025
+                    
+
+                    
+                        9591 
+                    
+
+                    
+                        78 
+                    
+
+                    
+                        266 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/6c9e480c-2cbd-40f2-8811-a62dd9ab4b9c</link>
+<guid isPermaLink='false'>7a256af3f6fc581e9614d929f7339bb8f82d0bc0</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Relevant cases</title>
-<link>https://www.orthobullets.com/Site/ElasticSearch/StandardSearchTiles?contentType=5&amp;s=3&amp;sort=relevance</link>
-<guid isPermaLink='false'>ce70bded01d1ce6b8b2abe1bf1d2ddc999f8857b</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>A
+                
+        
+
+        
+            
+                28
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+
+                    
+                        A
+                    
+            
+
+            
+                
+                        
+                                    
+            Cleveland Clinic, Ohio
+        
+
+                        
+
+                    
+                        Distal Radius Fx with Contralateral Femoral Shaft Fx in 35F
+                        (C102740)
+                    
+
+                    
+        
+            
+                
+                
+                    Anokha Padubidri
+                    Cleveland Clinic
+                
+            
+        
+        
+            
+                
+                
+                    Matthew Zielinski
+                    Cleveland Clinic
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Trauma
+                            
+                        
+
+                            
+                                
+                                    - Distal Radius Fractures
+                                
+                            
+                    
+
+
+
+                
+
+                
+                    
+                        5/8/2025
+                    
+
+                    
+                        6493 
+                    
+
+                    
+                        49 
+                    
+
+                    
+                        207 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/776ee445-72ba-4a76-9b27-a253281446f8</link>
+<guid isPermaLink='false'>4dd38684124bb03605e670b36bc8d521d1540eff</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Knee &amp; Sports</title>
-<link>https://www.orthobullets.com/Site/ElasticSearch/StandardSearchTiles?contentType=5&amp;s=225</link>
-<guid isPermaLink='false'>16ea380e89e440904faa542f9d13796587ef81f9</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>A
+                
+        
+
+        
+            
+                29
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+
+                    
+                        A
+                    
+            
+
+            
+                
+                        
+                                    
+            Houston Methodist Orthopedics &amp; Sports Medicine
+        
+
+                        
+
+                    
+                        Lateral Knee Pain in 16M Competitive Tennis Player
+                        (C102739)
+                    
+
+                    
+        
+            
+                
+                
+                    Patrick C. McCulloch
+                    Houston Methodist Orthopedics &amp; Sports Medicine
+                
+            
+        
+        
+            
+                
+                
+                    Andrew Riga
+                    Houston Methodist Orthopedics And Sports Medicine
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Knee &amp; Sports
+                            
+                        
+
+                            
+                                
+                                    - Articular Cartilage Defects of Knee
+                                
+                            
+                    
+
+
+
+                
+
+                
+                    
+                        5/6/2025
+                    
+
+                    
+                        4374 
+                    
+
+                    
+                        10 
+                    
+
+                    
+                        81 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/2f3579cc-36bf-47db-9b09-5d9b8af20340</link>
+<guid isPermaLink='false'>876137129e746510df551306f156fcfd6fa38683</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Popular cases</title>
-<link>https://www.orthobullets.com/Site/ElasticSearch/StandardSearchTiles?contentType=5&amp;s=225&amp;sort=top</link>
-<guid isPermaLink='false'>9a186c6a87d820ffbe3603353aad4b5b10fe7b76</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>A
+                
+        
+
+        
+            
+                30
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+
+                    
+                        A
+                    
+            
+
+            
+                
+
+                    
+                        Progressive Shoulder Pain in 67F
+                        (C102737)
+                    
+
+                    
+        
+            
+                
+                
+                    Michael Knudsen
+                    Columbia Orthopedics 
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Shoulder &amp; Elbow
+                            
+                        
+
+                            
+                                
+                                    - Glenohumeral Arthritis (Shoulder Arthritis)
+                                
+                            
+                    
+
+
+
+                
+
+                
+                    
+                        5/5/2025
+                    
+
+                    
+                        4619 
+                    
+
+                    
+                        41 
+                    
+
+                    
+                        108 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/4cffe913-0879-4a00-b47e-36251a152994</link>
+<guid isPermaLink='false'>8a6e28b40a3e7399f8e68c5768f460ad86405423</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Relevant cases</title>
-<link>https://www.orthobullets.com/Site/ElasticSearch/StandardSearchTiles?contentType=5&amp;s=225&amp;sort=relevance</link>
-<guid isPermaLink='false'>b2c383db552b3224a4fc41766b77d24e69f8cf76</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>A
+                
+        
+
+        
+            
+                31
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+
+                    
+                        A
+                    
+            
+
+            
+                
+
+                    
+                        Open Subtalar Fracture Dislocation in 46F
+                        (C102735)
+                    
+
+                    
+        
+            
+                
+                
+                    Jan Szatkowski
+                    IU HEALTH
+                
+            
+        
+        
+            
+                
+                
+                    Chirag Soni
+                    New Hyde Park, US
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Trauma
+                            
+                        
+
+                            
+                                
+                                    - Subtalar Dislocations
+                                
+                            
+                    
+
+
+
+                
+
+                
+                    
+                        4/29/2025
+                    
+
+                    
+                        4477 
+                    
+
+                    
+                        43 
+                    
+
+                    
+                        130 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/86927113-fb07-4ff3-94b8-0cb35cc56732</link>
+<guid isPermaLink='false'>2848099dcd54db38128474d13c750dc615271bd3</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Pediatrics</title>
-<link>https://www.orthobullets.com/Site/ElasticSearch/StandardSearchTiles?contentType=5&amp;s=4</link>
-<guid isPermaLink='false'>24a49433f7602d73c90fa85fc40a99da97c521e0</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>A
+                
+        
+
+        
+            
+                32
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+
+                    
+                        A
+                    
+            
+
+            
+                
+                        
+                                    
+            Northwell Health
+        
+
+                        
+
+                    
+                        Osteochondral Fracture of the Talar Dome in 21M
+                        (C102731)
+                    
+
+                    
+        
+            
+                
+                
+                    Adam Bitterman
+                    Northwell Health Physician Partners Orthopaedic Institute at Huntington
+                
+            
+        
+        
+            
+                
+                
+                    John Grossi
+                    OCEANSIDE, US
+                
+            
+        
+        
+            
+                
+                
+                    Johann Braithwaite
+                    Northwell Health 
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Trauma
+                            
+                        
+
+                            
+                                
+                                    - Talus Fracture (other than neck)
+                                
+                            
+                    
+
+
+
+                
+
+                
+                    
+                        4/26/2025
+                    
+
+                    
+                        3966 
+                    
+
+                    
+                        22 
+                    
+
+                    
+                        118 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/eef04327-a982-44ac-95ad-7326bfb5e261</link>
+<guid isPermaLink='false'>5d435ac70a4248c5d3d9ce573d19e0bd22f8e3d5</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Popular cases</title>
-<link>https://www.orthobullets.com/Site/ElasticSearch/StandardSearchTiles?contentType=5&amp;s=4&amp;sort=top</link>
-<guid isPermaLink='false'>a8ca00c6a46a2a7cd34e239ace2c8251fc9d3aba</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>A
+                
+        
+
+        
+            
+                33
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+
+                    
+                        A
+                    
+            
+
+            
+                
+                        
+                                    
+            Denver Health
+        
+
+                        
+
+                    
+                        Ankle Fracture in 45F
+                        (C102730)
+                    
+
+                    
+        
+            
+                
+                
+                    Raveesh Richard
+                    Denver Health
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Trauma
+                            
+                        
+
+                            
+                                
+                                    - Ankle Fractures
+                                
+                            
+                    
+
+
+
+                
+
+                
+                    
+                        4/24/2025
+                    
+
+                    
+                        13288 
+                    
+
+                    
+                        59 
+                    
+
+                    
+                        182 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/99980701-9236-4757-bb08-cf3af40aeb4f</link>
+<guid isPermaLink='false'>88e26626dac5191d10918c3df03d1fee82ba3f09</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Relevant cases</title>
-<link>https://www.orthobullets.com/Site/ElasticSearch/StandardSearchTiles?contentType=5&amp;s=4&amp;sort=relevance</link>
-<guid isPermaLink='false'>4ee2b3fb48e220412cb12f40110833eca9ed7c68</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>A
+                
+        
+
+        
+            
+                34
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+
+                    
+                        A
+                    
+            
+
+            
+                
+                        
+                                    
+            Mount Sinai
+        
+
+                        
+
+                    
+                        Pilon Fracture in 42M
+                        (C102729)
+                    
+
+                    
+        
+            
+                
+                
+                    David Forsh
+                    New York, US
+                
+            
+        
+        
+            
+                
+                
+                    Aonnicha Burapachaisri
+                    , 
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Trauma
+                            
+                        
+
+                            
+                                
+                                    - Tibial Plafond Fractures
+                                
+                            
+                    
+
+
+
+                
+
+                
+                    
+                        4/23/2025
+                    
+
+                    
+                        6242 
+                    
+
+                    
+                        15 
+                    
+
+                    
+                        124 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/8d51a979-6976-401e-a440-3bd68daa1976</link>
+<guid isPermaLink='false'>26bc69ce5288794f6d02442fcece9b7258e775f4</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Recon</title>
-<link>https://www.orthobullets.com/Site/ElasticSearch/StandardSearchTiles?contentType=5&amp;s=5</link>
-<guid isPermaLink='false'>4cc785432984ac5a0896c2040e02324441c0e7b4</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>E
+                
+        
+
+        
+            
+                35
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+
+                    
+                        E
+                    
+            
+
+            
+                
+
+                    
+                        23 yo male with hip pain
+                        (C102726)
+                    
+
+                    
+        
+            
+                
+                
+                    Joanna Lanz
+                    OrthoRI
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Trauma
+                            
+                        
+
+                    
+
+
+
+                
+
+                
+                    
+                        4/21/2025
+                    
+
+                    
+                        250 
+                    
+
+                    
+                        2 
+                    
+
+                    
+                        3 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/4a7891df-7d63-4357-a5f0-86f4ff1a0512</link>
+<guid isPermaLink='false'>935722a8fc9869420399c66ef233531bee4abad9</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Popular cases</title>
-<link>https://www.orthobullets.com/Site/ElasticSearch/StandardSearchTiles?contentType=5&amp;s=5&amp;sort=top</link>
-<guid isPermaLink='false'>8b8a81bd3fc62165b2d9fcdf620d42440a180abd</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>B
+                
+        
+
+        
+            
+                36
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+
+                    
+                        B
+                    
+            
+
+            
+                
+
+                    
+                        Midfoot Injury in 24F
+                        (C102724)
+                    
+
+                    
+        
+            
+                
+                
+                    Lyndon Mason
+                    Liverpool Foot and Ankle Clinic
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Trauma
+                            
+                        
+
+                    
+
+
+
+                
+
+                
+                    
+                        4/14/2025
+                    
+
+                    
+                        1106 
+                    
+
+                    
+                        20 
+                    
+
+                    
+                        23 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/8c2bdc16-c33e-4acf-9a8d-1a64389a12b8</link>
+<guid isPermaLink='false'>788f1343e2bf2c970aa200043ab058affe5d17f8</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Relevant cases</title>
-<link>https://www.orthobullets.com/Site/ElasticSearch/StandardSearchTiles?contentType=5&amp;s=5&amp;sort=relevance</link>
-<guid isPermaLink='false'>90dbfe92d5499c67cb19b62fafd47e6f38ff706f</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>A
+                
+        
+
+        
+            
+                37
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+
+                    
+                        A
+                    
+            
+
+            
+                
+                        
+                                    
+            Evangelischen Krankenhaus Oldenburg
+        
+
+                        
+
+                    
+                        CMN Peri-implant Femur Fracture in 92M
+                        (C102723)
+                    
+
+                    
+        
+            
+                
+                
+                    Nikola Vukelic
+                    Evangelisches Krankenhaus Oldenburg
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Trauma
+                            
+                        
+
+                            
+                                
+                                    - Cephalomedullary Nail Peri-Implant Femur Fracture
+                                
+                            
+                    
+
+
+
+                
+
+                
+                    
+                        4/4/2025
+                    
+
+                    
+                        5324 
+                    
+
+                    
+                        31 
+                    
+
+                    
+                        194 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/0cf12114-04ee-4493-834b-d77683a1ebef</link>
+<guid isPermaLink='false'>bd1c1d687cd6817d3fab43696b088abc586325f6</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Hand</title>
-<link>https://www.orthobullets.com/Site/ElasticSearch/StandardSearchTiles?contentType=5&amp;s=6</link>
-<guid isPermaLink='false'>a018df42dab66c3e6d89853ee329d891edf01096</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>A
+                
+        
+
+        
+            
+                38
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+
+                    
+                        A
+                    
+            
+
+            
+                
+
+                    
+                        Glenoid Component Failure s/p RSA in 73M
+                        (C102713)
+                    
+
+                    
+        
+            
+                
+                
+                    Ben Sharareh
+                    Ventura Orthopedics
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Shoulder &amp; Elbow
+                            
+                        
+
+                            
+                                
+                                    - Reverse Shoulder Arthroplasty
+                                
+                            
+                    
+
+
+
+                
+
+                
+                    
+                        3/28/2025
+                    
+
+                    
+                        3521 
+                    
+
+                    
+                        15 
+                    
+
+                    
+                        89 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/50523444-0061-4e49-abfe-4615e61daa6e</link>
+<guid isPermaLink='false'>054f046de8927055f9a99c3057a481d7ffc8bac1</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Popular cases</title>
-<link>https://www.orthobullets.com/Site/ElasticSearch/StandardSearchTiles?contentType=5&amp;s=6&amp;sort=top</link>
-<guid isPermaLink='false'>21f52600363599d54f8418a1341bcf0cdde3286a</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>A
+                
+        
+
+        
+            
+                39
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+
+                    
+                        A
+                    
+            
+
+            
+                
+                        
+                                    
+            OrthoNY
+        
+
+                        
+
+                    
+                        Hyperflexion Elbow Injury in 16M Wrestler
+                        (C102712)
+                    
+
+                    
+        
+            
+                
+                
+                    Lee Kaback
+                    OrthoNY
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Shoulder &amp; Elbow
+                            
+                        
+
+                            
+                                
+                                    - Triceps Rupture
+                                
+                            
+                    
+
+
+
+                
+
+                
+                    
+                        3/26/2025
+                    
+
+                    
+                        4556 
+                    
+
+                    
+                        20 
+                    
+
+                    
+                        54 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/32aa5ab0-3721-4a76-ae3a-354a6b393a13</link>
+<guid isPermaLink='false'>e87e143d6551c68a741792656a6a5beaba5f5140</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Relevant cases</title>
-<link>https://www.orthobullets.com/Site/ElasticSearch/StandardSearchTiles?contentType=5&amp;s=6&amp;sort=relevance</link>
-<guid isPermaLink='false'>03d2ce491518976b00ad53a3ae611ba60a32e09d</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>A
+                
+        
+
+        
+            
+                40
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+
+                    
+                        A
+                    
+            
+
+            
+                
+                        
+                                    
+            Liverpool Orthopaedic and Trauma Service
+        
+
+                        
+
+                    
+                        Complex Ankle Fracture in 57F
+                        (C102706)
+                    
+
+                    
+        
+            
+                
+                
+                    Lyndon Mason
+                    Liverpool Foot and Ankle Clinic
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Trauma
+                            
+                        
+
+                            
+                                
+                                    - Ankle Fractures
+                                
+                            
+                    
+
+
+
+                
+
+                
+                    
+                        3/17/2025
+                    
+
+                    
+                        6600 
+                    
+
+                    
+                        31 
+                    
+
+                    
+                        77 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/8c6f6421-ce28-4427-9cfc-e4acd76b4a28</link>
+<guid isPermaLink='false'>2d1adc3455144fb3beac11c82e36c53aebe7d0bc</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Foot &amp; Ankle</title>
-<link>https://www.orthobullets.com/Site/ElasticSearch/StandardSearchTiles?contentType=5&amp;s=7</link>
-<guid isPermaLink='false'>4ffa04112101a36d3874d4a55a65e527c9a8cc66</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>B
+                
+        
+
+        
+            
+                41
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+
+                    
+                        B
+                    
+            
+
+            
+                
+
+                    
+                        RSA Dislocation s/p RSA for Proximal Humerus Fx Nonunion in 77F
+                        (C102705)
+                    
+
+                    
+        
+            
+                
+                
+                    Howard Routman
+                    Atlantis Orthopaedics - Palm Beach Gardens
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Shoulder &amp; Elbow
+                            
+                        
+
+                            
+                                
+                                    - Reverse Shoulder Arthroplasty
+                                
+                            
+                    
+
+
+
+                
+
+                
+                    
+                        3/17/2025
+                    
+
+                    
+                        241 
+                    
+
+                    
+                        6 
+                    
+
+                    
+                        16 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/2f552189-ac23-4ae9-a06a-f2fd3a01282c</link>
+<guid isPermaLink='false'>805b04e3b47d7f551d1093beed68b2f123fc4077</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Popular cases</title>
-<link>https://www.orthobullets.com/Site/ElasticSearch/StandardSearchTiles?contentType=5&amp;s=7&amp;sort=top</link>
-<guid isPermaLink='false'>0cf41222cceeb2eac48413a4c0134d7144fab588</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>E
+                
+        
+
+        
+            
+                42
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+
+                    
+                        E
+                    
+            
+
+            
+                
+
+                    
+                        Tibia on Ex-fix (4 month)presents with new fall
+                        (C102704)
+                    
+
+                    
+        
+            
+                
+                
+                    Aiman Alshomrani
+                    Saudi Commission for Health Specialties 
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Trauma
+                            
+                        
+
+                            
+                                
+                                    - Open Fractures Management
+                                
+                            
+                    
+
+
+
+                
+
+                
+                    
+                        3/17/2025
+                    
+
+                    
+                        179 
+                    
+
+                    
+                        8 
+                    
+
+                    
+                        8 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/150f2e01-7a55-4d7b-a2cf-dedd723c21b6</link>
+<guid isPermaLink='false'>4d3d025d6d9fa81a544e11f0bcd6dc4f6928e26c</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Relevant cases</title>
-<link>https://www.orthobullets.com/Site/ElasticSearch/StandardSearchTiles?contentType=5&amp;s=7&amp;sort=relevance</link>
-<guid isPermaLink='false'>24263ca385b62c3b13803db5eb9849a398af419d</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>E
+                
+        
+
+        
+            
+                43
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+
+                    
+                        E
+                    
+            
+
+            
+                
+
+                    
+                        trimalleolar ankle fracture in a diabetic patient
+                        (C102698)
+                    
+
+                    
+        
+            
+                
+                
+                    Ahmed Elmatbouly
+                    cairo, EG
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Trauma
+                            
+                        
+
+                            
+                                
+                                    - Ankle Fractures
+                                
+                            
+                    
+
+
+
+                
+
+                
+                    
+                        3/11/2025
+                    
+
+                    
+                        502 
+                    
+
+                    
+                        5 
+                    
+
+                    
+                        11 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/cfd0e452-e0bd-4d8a-9d4a-c31fef375ca7</link>
+<guid isPermaLink='false'>12921fcf4dbf96ff3d0c09b43fd4225d87870f1c</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Pathology</title>
-<link>https://www.orthobullets.com/Site/ElasticSearch/StandardSearchTiles?contentType=5&amp;s=8</link>
-<guid isPermaLink='false'>05873c0269e2a90a11eed1ac6a61dd2c0464e35f</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>E
+                
+        
+
+        
+            
+                44
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+
+                    
+                        E
+                    
+            
+
+            
+                
+
+                    
+                        perimplant itatorgenic subtrochantric fracture post retrograde nail fixation for extra-articular distal femur fracture
+                        (C102695)
+                    
+
+                    
+        
+            
+                
+                
+                    Mohamed Abdelaliem
+                    ALIEM ORTHO clinics الدكتور محمد عبد العليم
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Trauma
+                            
+                        
+
+                            
+                                
+                                    - Distal Femur Fractures
+                                
+                            
+                    
+
+
+
+                
+
+                
+                    
+                        3/6/2025
+                    
+
+                    
+                        96 
+                    
+
+                    
+                        5 
+                    
+
+                    
+                        4 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/15426490-25ae-470a-a8f9-fa81e9063264</link>
+<guid isPermaLink='false'>dc6f2203777fccaf17c4fb1db317fc3a24174ec7</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Popular cases</title>
-<link>https://www.orthobullets.com/Site/ElasticSearch/StandardSearchTiles?contentType=5&amp;s=8&amp;sort=top</link>
-<guid isPermaLink='false'>0125af6f63150713dfd9d321b5797146a9f7bb1e</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>A
+                
+        
+
+        
+            
+                45
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+
+                    
+                        A
+                    
+            
+
+            
+                
+
+                    
+                        Pelvis and Acetabulum Fracture with Bladder Injury in 20M
+                        (C102694)
+                    
+
+                    
+        
+            
+                
+                
+                    Michael Maceroli
+                    Orthopedic Trauma Specialists 
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Trauma
+                            
+                        
+
+                            
+                                
+                                    - Acetabular Fractures
+                                
+                            
+                    
+
+
+
+                
+
+                
+                    
+                        3/5/2025
+                    
+
+                    
+                        3944 
+                    
+
+                    
+                        67 
+                    
+
+                    
+                        99 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/e517e868-62e3-4025-8b94-a547d8bad90f</link>
+<guid isPermaLink='false'>f7df9469f8ff92ad175c9973bcdc8a7efb81dcb0</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Relevant cases</title>
-<link>https://www.orthobullets.com/Site/ElasticSearch/StandardSearchTiles?contentType=5&amp;s=8&amp;sort=relevance</link>
-<guid isPermaLink='false'>96048f26a10d86e3d19c860d496225950bdab9e9</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>E
+                
+        
+
+        
+            
+                46
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+
+                    
+                        E
+                    
+            
+
+            
+                
+
+                    
+                        BILATERAL FEMOR AVASCULAR NECROSIS IN A YOUNG TEACHER
+                        (C102692)
+                    
+
+                    
+        
+            
+                
+                
+                    NELO C. LIMA
+                    Maputo, MZ
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Trauma
+                            
+                        
+
+                    
+
+
+
+                
+
+                
+                    
+                        3/1/2025
+                    
+
+                    
+                        329 
+                    
+
+                    
+                        12 
+                    
+
+                    
+                        6 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/ee6a1bb5-7af8-4cb4-8fb9-0b6bc2361f97</link>
+<guid isPermaLink='false'>9bde10384338ed30e5722042e2f7af5ae7a41729</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Basic Science</title>
-<link>https://www.orthobullets.com/Site/ElasticSearch/StandardSearchTiles?contentType=5&amp;s=9</link>
-<guid isPermaLink='false'>7dc96289883f45da8350b74afed08eae086723e5</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>E
+                
+        
+
+        
+            
+                47
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+
+                    
+                        E
+                    
+            
+
+            
+                
+
+                    
+                        1.5 - Stage Revision Arthroplasty for a Dislocated THA with Periprosthetic Joint Infection
+                        (C102689)
+                    
+
+                    
+        
+            
+                
+                
+                    Edsel Arandia
+                    St. Lukes Medical Center
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Trauma
+                            
+                        
+
+                    
+
+
+
+                
+
+                
+                    
+                        3/1/2025
+                    
+
+                    
+                        0 
+                    
+
+                    
+                        0 
+                    
+
+                    
+                        0 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/0a06c98f-3536-4673-bd40-26a3d80af6dd</link>
+<guid isPermaLink='false'>cd1839b3c8b0c49e7592e2e95b5988e41ebd46d2</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Popular cases</title>
-<link>https://www.orthobullets.com/Site/ElasticSearch/StandardSearchTiles?contentType=5&amp;s=9&amp;sort=top</link>
-<guid isPermaLink='false'>ef915d20c89cd37dc2e2aaf0d5c8a1e8fb2284b2</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>E
+                
+        
+
+        
+            
+                48
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+
+                    
+                        E
+                    
+            
+
+            
+                
+
+                    
+                        Protrusio Acetabulum 
+                        (C102688)
+                    
+
+                    
+        
+            
+                
+                
+                    Kashif Anwar
+                    Houston, US
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Trauma
+                            
+                        
+
+                    
+
+
+
+                
+
+                
+                    
+                        3/1/2025
+                    
+
+                    
+                        0 
+                    
+
+                    
+                        0 
+                    
+
+                    
+                        1 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/5f7f60af-2130-48ea-bc79-ca93be946360</link>
+<guid isPermaLink='false'>2167a853cd4c192c4e226cbe27a2ad5e3070c249</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Relevant cases</title>
-<link>https://www.orthobullets.com/Site/ElasticSearch/StandardSearchTiles?contentType=5&amp;s=9&amp;sort=relevance</link>
-<guid isPermaLink='false'>84fc9217208eae2f0b0df331891eb08e0102b02d</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>E
+                
+        
+
+        
+            
+                49
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+            
+    
+
+                    
+                        E
+                    
+            
+
+            
+                
+
+                    
+                        OBTURATOR DISLOCATION
+                        (C102686)
+                    
+
+                    
+        
+            
+                
+                
+                    Samuel Hailu
+                    Addis Ababa University, Addis Ababa, ET
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Trauma
+                            
+                        
+
+                    
+
+
+
+                
+
+                
+                    
+                        2/28/2025
+                    
+
+                    
+                        0 
+                    
+
+                    
+                        0 
+                    
+
+                    
+                        0 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/b9af9f88-0613-4d87-9562-12885b686162</link>
+<guid isPermaLink='false'>7be3cc86528a9f578b6c58979e0181db1bfa8484</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
 <item>
-<title>Anatomy</title>
-<link>https://www.orthobullets.com/Site/ElasticSearch/StandardSearchTiles?contentType=5&amp;s=10</link>
-<guid isPermaLink='false'>61aa272dc1acba6f1c8a4ae73f17ca603a2dc2d5</guid>
-<pubDate>Thu, 18 Sep 2025 20:54:28 +0000</pubDate>
+<title>E
+                
+        
+
+        
+            
+                50
+            
+            
+                
+                    
+                
+                    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+
+                    
+                        E
+                    
+            
+
+            
+                
+
+                    
+                        Fracture Neck of Left Femur in 74 yrs female   in Rheumatoid Arthritis patient
+                        (C102685)
+                    
+
+                    
+        
+            
+                
+                
+                    sandeep bhandari
+                    kathmandu, NP
+                
+            
+        
+                    
+
+                    
+                        
+                            
+                                
+                                Trauma
+                            
+                        
+
+                    
+
+
+
+                
+
+                
+                    
+                        2/28/2025
+                    
+
+                    
+                        43 
+                    
+
+                    
+                        2 
+                    
+
+                    
+                        3 
+                    
+
+
+                             Vote for CME</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/8084b613-79ea-4694-99b2-b4abf4dacd48</link>
+<guid isPermaLink='false'>e767c3153c044a517f847dbadef3588ba28aee18</guid>
+<pubDate>Thu, 18 Sep 2025 21:08:39 +0000</pubDate>
 </item>
-</channel>
-</rss>
+</channel></rss>
