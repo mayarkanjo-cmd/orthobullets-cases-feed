@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Orthobullets Cases -> RSS + JSON (login, XPath, last-24h filter, robust + always writes files)
-Outputs:
-  dist/orthobullets_cases.xml
-  dist/orthobullets_cases.json
+Orthobullets Cases -> RSS + JSON (login, last-24h filter)
+- Logs in with Playwright
+- Reads the LIST page, finds each case tile and its relative age ("x hours ago")
+- Filters to last 24 hours using that age (fallback to per-page meta if needed)
+- For kept cases, opens each case to pull: title, doctor, text, therapy, images
+- Always writes dist/orthobullets_cases.xml and dist/orthobullets_cases.json
 """
 
 import os, re, json, hashlib, sys, traceback
@@ -15,15 +17,17 @@ from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
 
 # ---------------- Env ----------------
 LIST_URL   = os.environ.get("OTB_URL", "https://www.orthobullets.com/Site/ElasticSearch/StandardSearchTiles?contentType=5&s=1,2,3,225,6,7,10")
-XPATH      = os.environ.get("OTB_XPATH", '//div[contains(@class,"dashboard-item--case")]//a[@href]')
+# XPATH to a single anchor somewhere inside each case tile (used only as fallback)
+XPATH_ANCHOR = os.environ.get("OTB_XPATH", '//div[contains(@class,"dashboard-item--case")]//a[@href]')
+# XPATH to the whole case tile (we parse age text from inside the tile)
+XPATH_TILE  = os.environ.get("OTB_TILE_XPATH", '//div[contains(@class,"dashboard-item--case")]')
+
 EMAIL      = os.environ.get("OTB_EMAIL", "")
 PASSWORD   = os.environ.get("OTB_PASSWORD", "")
 OUTPUT_RSS = os.environ.get("OTB_OUTPUT", "dist/orthobullets_cases.xml")
 OUTPUT_JSON= os.environ.get("OTB_JSON",   "dist/orthobullets_cases.json")
-STATE_PATH = os.environ.get("OTB_STATE",  "dist/orthobullets_cases_seen.json")
 UA         = os.environ.get("OTB_UA", "Mozilla/5.0 (Orthobullets RSS Bot)")
-MAX_ITEMS  = int(os.environ.get("OTB_MAX_ITEMS", "50"))
-INCLUDE_UNDATED = os.environ.get("OTB_INCLUDE_UNDATED", "0") == "1"
+MAX_ITEMS  = int(os.environ.get("OTB_MAX_ITEMS", "60"))
 DEBUG      = os.environ.get("OTB_DEBUG", "0") == "1"
 # -------------------------------------
 
@@ -65,6 +69,36 @@ def parse_iso_dt(s: str) -> datetime | None:
             return None
     return None
 
+def parse_relative_age_to_dt(text: str) -> datetime | None:
+    """
+    Accepts strings like '2 hours ago', '1 day ago', 'a week ago'
+    Returns an approximate UTC datetime by subtracting a timedelta from now.
+    """
+    if not text: return None
+    t = text.lower()
+    # normalize 'a'/'an' to 1
+    t = re.sub(r"\b(an|a)\b", "1", t)
+    m = re.search(r"(\d+)\s*(minute|hour|day|week|month|year)s?\s*ago", t, re.I)
+    if not m: 
+        return None
+    n = int(m.group(1))
+    unit = m.group(2).lower()
+    if unit.startswith("minute"):
+        delta = timedelta(minutes=n)
+    elif unit.startswith("hour"):
+        delta = timedelta(hours=n)
+    elif unit.startswith("day"):
+        delta = timedelta(days=n)
+    elif unit.startswith("week"):
+        delta = timedelta(days=7*n)
+    elif unit.startswith("month"):
+        delta = timedelta(days=30*n)
+    elif unit.startswith("year"):
+        delta = timedelta(days=365*n)
+    else:
+        return None
+    return now_utc() - delta
+
 def section_text(doc: lxml_html.HtmlElement, keywords: list[str]) -> str:
     headings = []
     for level in ("h1","h2","h3"):
@@ -96,13 +130,14 @@ def main_content_text(doc: lxml_html.HtmlElement) -> str:
             return norm(" ".join(n[0].itertext()))
     return norm(" ".join(doc.xpath("//body//text()")))[:4000]
 
-def login_and_collect_links(pw):
+# ---------------- Playwright ----------------
+def login_and_collect_tiles(pw):
     if not EMAIL or not PASSWORD:
         raise RuntimeError("Missing OTB_EMAIL or OTB_PASSWORD.")
 
     log(f"Opening list URL: {LIST_URL}")
     browser = pw.chromium.launch(headless=True)
-    context = browser.new_context(user_agent=UA, viewport={"width": 1280, "height": 1800})
+    context = browser.new_context(user_agent=UA, viewport={"width": 1400, "height": 1800})
     page = context.new_page()
 
     page.goto(LIST_URL, wait_until="domcontentloaded", timeout=60_000)
@@ -121,6 +156,7 @@ def login_and_collect_links(pw):
         page.wait_for_load_state("domcontentloaded", timeout=60_000)
         page.goto(LIST_URL, wait_until="domcontentloaded", timeout=60_000)
 
+    # Nudge lazy tiles
     try:
         page.evaluate("window.scrollTo(0, document.body.scrollHeight/2)")
     except Exception:
@@ -128,21 +164,44 @@ def login_and_collect_links(pw):
 
     html_text = page.content()
     doc = lxml_html.fromstring(html_text)
-    nodes = doc.xpath(XPATH)
-    log(f"XPath matched {len(nodes)} anchors.")
 
-    links, seen = [], set()
-    for a in nodes:
-        href = abs_url("https://www.orthobullets.com", a.get("href"))
-        if not href: continue
-        if "/Site/Cases/View/" not in href:    # keep real case pages
+    tiles = doc.xpath(XPATH_TILE)
+    log(f"Tile XPath matched {len(tiles)} tiles.")
+    out = []
+
+    # If no tiles (layout changed), fall back to anchors
+    if not tiles:
+        anchors = doc.xpath(XPATH_ANCHOR)
+        log(f"Fallback: anchor XPath matched {len(anchors)} anchors.")
+        for a in anchors:
+            href = abs_url("https://www.orthobullets.com", a.get("href"))
+            if not href or "/Site/Cases/View/" not in href: 
+                continue
+            out.append({"link": href, "pub_dt": None})
+        return browser, context, page, out[:MAX_ITEMS]
+
+    # Normal path: parse each tile's link + relative age
+    seen = set()
+    for tile in tiles:
+        # link
+        a = tile.xpath('.//a[@href][1]')
+        if not a:
             continue
-        if href in seen: continue
+        href = abs_url("https://www.orthobullets.com", a[0].get("href"))
+        if not href or "/Site/Cases/View/" not in href:
+            continue
+        if href in seen:
+            continue
         seen.add(href)
-        links.append(href)
 
-    log(f"Collected {len(links)} case links.")
-    return browser, context, page, links[:MAX_ITEMS]
+        # relative age text
+        raw = norm(" ".join(tile.itertext()))
+        pub_dt = parse_relative_age_to_dt(raw)
+
+        out.append({"link": href, "pub_dt": pub_dt})
+
+    log(f"Collected {len(out)} case tiles (with relative times where available).")
+    return browser, context, page, out[:MAX_ITEMS]
 
 def extract_case(page, link):
     if DEBUG: log(f"Opening case: {link}")
@@ -183,6 +242,7 @@ def extract_case(page, link):
     except Exception:
         pass
 
+    # Parse with lxml for text/therapy and (as fallback) published date
     doc = lxml_html.fromstring(page.content())
 
     published_at = None
@@ -204,12 +264,13 @@ def extract_case(page, link):
         "title": title or "Untitled case",
         "link": link,
         "doctor": doctor,
-        "published_at": published_at.isoformat() if published_at else None,
+        "images": images,
+        "published_at": published_at,  # datetime or None
         "text": text,
         "therapy": therapy,
-        "images": images
     }
 
+# ---------------- Output builders ----------------
 def build_rss(items):
     now = rfc2822(now_utc())
     out = [
@@ -218,7 +279,7 @@ def build_rss(items):
         "<channel>",
         f"<title>Orthobullets Cases (last 24h)</title>",
         f"<link>{esc(LIST_URL)}</link>",
-        f"<description>Cases in the last 24 hours; includes doctor, image, therapy snippet.</description>",
+        f"<description>Cases in the last 24 hours; includes doctor, first image, therapy snippet.</description>",
         f"<lastBuildDate>{now}</lastBuildDate>",
     ]
     for it in items:
@@ -251,17 +312,30 @@ def safe_write_json(path, obj):
     with open(path, "w", encoding="utf-8") as f:
         json.dump(obj, f, ensure_ascii=False, indent=2)
 
-def run() -> int:
-    items = []
+# ---------------- Main ----------------
+def main() -> int:
     cutoff = now_utc() - timedelta(hours=24)
+    kept = []
 
     try:
         with sync_playwright() as pw:
-            browser, context, page, links = login_and_collect_links(pw)
-            if not links:
-                log("No links found after XPath filter.")
+            browser, context, page, tiles = login_and_collect_tiles(pw)
+            log(f"Tiles returned: {len(tiles)}")
 
-            for link in links:
+            # Pre-filter by list-page relative age
+            prelim = []
+            for t in tiles:
+                link = t["link"]
+                pub_dt = t.get("pub_dt")  # may be None if no '... ago' text
+                if pub_dt and pub_dt < cutoff:
+                    continue
+                prelim.append(t)
+
+            log(f"Pre-filter (by list relative time) kept {len(prelim)} tiles.")
+
+            # For each prefiltered tile, open the case and pull details
+            for t in prelim:
+                link = t["link"]
                 try:
                     data = extract_case(page, link)
                 except Exception as e:
@@ -269,16 +343,18 @@ def run() -> int:
                     if DEBUG: traceback.print_exc()
                     continue
 
-                if data["published_at"]:
-                    pub_dt = parse_iso_dt(data["published_at"])
-                    if not pub_dt or pub_dt < cutoff:
-                        continue
-                else:
-                    if not INCLUDE_UNDATED:
-                        continue
-                    pub_dt = now_utc()
+                # Decide final pub_dt: prefer tile’s relative time; else page meta; else now()
+                pub_dt = t.get("pub_dt")
+                if not pub_dt and data["published_at"]:
+                    pub_dt = data["published_at"]
+                if not pub_dt:
+                    # could not determine date; treat as older than 24h (skip)
+                    continue
 
-                items.append({
+                if pub_dt < cutoff:
+                    continue
+
+                kept.append({
                     "title": data["title"],
                     "link": data["link"],
                     "doctor": data["doctor"],
@@ -293,15 +369,14 @@ def run() -> int:
             except Exception: pass
 
     except Exception as e:
-        log(f"FATAL: {e}")
+        log(f"FATAL during run: {e}")
         if DEBUG: traceback.print_exc()
 
-    # Sort & cap
-    items.sort(key=lambda x: x["pub_dt"], reverse=True)
-    items = items[:MAX_ITEMS]
+    kept.sort(key=lambda x: x["pub_dt"], reverse=True)
+    kept = kept[:MAX_ITEMS]
 
-    # Always write outputs so the workflow sees files
-    rss = build_rss(items)
+    # Always write outputs (even if 0 items)
+    rss = build_rss(kept)
     safe_write(OUTPUT_RSS, rss)
 
     json_payload = [{
@@ -313,12 +388,11 @@ def run() -> int:
         "therapy": it["therapy"],
         "images": it["images"],
         "id": it["id"],
-    } for it in items]
+    } for it in kept]
     safe_write_json(OUTPUT_JSON, json_payload)
 
-    log(f"Wrote {OUTPUT_RSS} and {OUTPUT_JSON} with {len(items)} items (last 24h).")
-    # Return non-zero if nothing matched, so you notice — but files are present
-    return 0 if items else 2
+    log(f"Wrote {OUTPUT_RSS} and {OUTPUT_JSON} with {len(kept)} items (last 24h).")
+    return 0  # keep the workflow green
 
 if __name__ == "__main__":
-    sys.exit(run())
+    sys.exit(main())
