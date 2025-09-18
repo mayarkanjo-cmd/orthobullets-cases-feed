@@ -5,7 +5,7 @@ from urllib.parse import urljoin, urlparse
 import requests
 from bs4 import BeautifulSoup
 
-OTB_URL = os.environ.get("OTB_URL", "https://www.orthobullets.com/cases")
+OTB_URL = os.environ.get("OTB_URL", "https://www.orthobullets.com/Site/ElasticSearch/StandardSearchTiles?contentType=5&s=1,2,3,225,6,7,10")
 COOKIE  = os.environ.get("OTB_COOKIE")
 OUTPUT  = os.environ.get("OTB_OUTPUT", "orthobullets_cases.xml")
 STATE   = os.environ.get("OTB_STATE",  "orthobullets_cases_seen.json")
