@@ -1,10 +1,6 @@
 name: Build & Publish Orthobullets Cases RSS
 
 on:
-  schedule:
-    # 05:30 Berlin time (handles DST by running both UTC times)
-    - cron: "30 3 * * *"  # 03:30 UTC ≈ 05:30 CEST (summer)
-    - cron: "30 4 * * *"  # 04:30 UTC ≈ 05:30 CET  (winter)
   workflow_dispatch:
 
 jobs:
