@@ -1,14 +1,13 @@
-name: Build & Publish Orthobullets Cases RSS (Login, 24h filter)
+name: Build & Publish Orthobullets Cases RSS (Login, 24h filter, verbose)
 
 permissions:
   contents: write
 
 on:
-  # run daily at 06:00 Berlin (handles DST by running both UTC times)
   schedule:
-    - cron: "0 5 * * *"  # 05:00 UTC ≈ 06:00 CEST (summer)
-    - cron: "0 4 * * *"  # 04:00 UTC ≈ 06:00 CET  (winter)
-  workflow_dispatch: {}   # also allow manual runs
+    - cron: "0 5 * * *"  # 06:00 Berlin during summer (UTC+2 ≈ 04:00 UTC? adjust if needed)
+    - cron: "0 4 * * *"  # 06:00 Berlin during winter (UTC+1)
+  workflow_dispatch: {}
 
 jobs:
   build:
@@ -25,6 +24,8 @@ jobs:
 
       - name: Install dependencies (Playwright + parsers)
         run: |
+          set -eux
+          pip install --upgrade pip
           pip install playwright lxml requests
           python -m playwright install --with-deps chromium
 
@@ -39,13 +40,21 @@ jobs:
           OTB_STATE: dist/orthobullets_cases_seen.json
           OTB_UA: Mozilla/5.0 (Orthobullets RSS Bot)
           OTB_MAX_ITEMS: "60"
-          # set to "1" if you want pages without a detectable date to be included
-          OTB_INCLUDE_UNDATED: "0"
+          OTB_INCLUDE_UNDATED: "0"  # keep "0" to strictly enforce last 24h
         run: |
+          set -eux
+          python -V
           mkdir -p dist
+          echo "Running scraper..."
           python3 orthobullets_cases_rss.py
-          echo "Produced files:"
-          ls -l dist
+          echo "Produced files in ./dist:"
+          ls -lah dist || true
+          echo "Show first lines (if exist):"
+          [ -f dist/orthobullets_cases.xml ] && head -n 20 dist/orthobullets_cases.xml || echo "XML missing"
+          [ -f dist/orthobullets_cases.json ] && head -n 40 dist/orthobullets_cases.json || echo "JSON missing"
+          # Hard fail if files were not created
+          test -f dist/orthobullets_cases.xml
+          test -f dist/orthobullets_cases.json
 
       - name: Publish to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
