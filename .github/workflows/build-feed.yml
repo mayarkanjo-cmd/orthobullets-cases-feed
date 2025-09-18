@@ -1,18 +1,18 @@
-name: Build & Publish Orthobullets Cases RSS
+name: Build & Publish Orthobullets Cases RSS (Login)
 
-# Allow the workflow to push to gh-pages
 permissions:
   contents: write
 
 on:
   workflow_dispatch:     # run manually
-  # schedule:            # uncomment if you want daily at 05:30 Berlin
-  #   - cron: "30 3 * * *"  # 05:30 CEST (UTC+2, summer)
-  #   - cron: "30 4 * * *"  # 05:30 CET (UTC+1, winter)
+  # schedule:            # uncomment for daily schedule
+  #   - cron: "30 3 * * *"  # 05:30 Berlin (summer)
+  #   - cron: "30 4 * * *"  # 05:30 Berlin (winter)
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -22,16 +22,20 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install deps
-        run: pip install requests beautifulsoup4 lxml
+      - name: Install dependencies (Playwright + parsers)
+        run: |
+          pip install playwright lxml requests
+          python -m playwright install --with-deps chromium
 
-      - name: Generate RSS
+      - name: Generate RSS/JSON via login
         env:
-          OTB_COOKIE: ${{ secrets.OTB_COOKIE }}   # optional if login needed
+          OTB_EMAIL: ${{ secrets.OTB_EMAIL }}
+          OTB_PASSWORD: ${{ secrets.OTB_PASSWORD }}
           OTB_URL: https://www.orthobullets.com/Site/ElasticSearch/StandardSearchTiles?contentType=5&s=1,2,3,225,6,7,10
+          OTB_XPATH: //div[contains(@class,"dashboard-item--case")]//a[@href]
           OTB_OUTPUT: dist/orthobullets_cases.xml
+          OTB_JSON: dist/orthobullets_cases.json
           OTB_STATE: dist/orthobullets_cases_seen.json
-          OTB_XPATH: '//div[contains(@class,"dashboard-item--case")]//a[@href]'
         run: |
           mkdir -p dist
           python3 orthobullets_cases_rss.py
