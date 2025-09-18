@@ -1,7 +1,16 @@
 name: Build & Publish Orthobullets Cases RSS
 
+# ✅ allow the action to push to gh-pages
+permissions:
+  contents: write
+
 on:
+  # keep manual trigger or your schedule
   workflow_dispatch:
+  # If you also want 05:30 Berlin every day, add:
+  # schedule:
+  #   - cron: "30 3 * * *"  # 03:30 UTC ≈ 05:30 CEST
+  #   - cron: "30 4 * * *"  # 04:30 UTC ≈ 05:30 CET
 
 jobs:
   build:
@@ -21,6 +30,8 @@ jobs:
       - name: Generate RSS
         env:
           OTB_COOKIE: ${{ secrets.OTB_COOKIE }}
+          # Use dashboard URL (worked for you)
+          OTB_URL: https://www.orthobullets.com/user/dashboard?id=all
           OTB_OUTPUT: dist/orthobullets_cases.xml
           OTB_STATE: dist/orthobullets_cases_seen.json
         run: |
