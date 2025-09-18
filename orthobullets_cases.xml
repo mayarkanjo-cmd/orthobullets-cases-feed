@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>Orthobullets – Cases (Unofficial RSS)</title>
+<link>https://www.orthobullets.com/user/dashboard?id=all</link>
+<description>Unofficial RSS generated from Orthobullets Cases using a logged-in session cookie.</description>
+<lastBuildDate>Thu, 18 Sep 2025 20:44:54 +0000</lastBuildDate>
+<item>
+<title>Post Case</title>
+<link>https://www.orthobullets.com/Site/Cases/Create</link>
+<guid isPermaLink='false'>fd2bdf08111726453273e5623514b8467fc6039e</guid>
+<pubDate>Thu, 18 Sep 2025 20:44:54 +0000</pubDate>
+</item>
+</channel>
+</rss>
