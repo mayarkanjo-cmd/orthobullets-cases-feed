@@ -129,4 +129,4 @@ def login_and_collect_links(pw):
             page.click('button[type="submit"]')
         else:
             page.keyboard.press("Enter")
-        page.wait_for_load_state("domcontentl_
+        page.wait_for_load_state("domcontentloaded", timeout=60_000)
