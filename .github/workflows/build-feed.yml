@@ -1,0 +1,41 @@
+name: Build & Publish Orthobullets Cases RSS
+
+on:
+  schedule:
+    # 05:30 Berlin time (handles DST by running both UTC times)
+    - cron: "30 3 * * *"  # 03:30 UTC ≈ 05:30 CEST (summer)
+    - cron: "30 4 * * *"  # 04:30 UTC ≈ 05:30 CET  (winter)
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: pip install requests beautifulsoup4
+
+      - name: Generate RSS
+        env:
+          OTB_COOKIE: ${{ secrets.OTB_COOKIE }}
+          OTB_OUTPUT: dist/orthobullets_cases.xml
+          OTB_STATE: dist/orthobullets_cases_seen.json
+        run: |
+          mkdir -p dist
+          python3 orthobullets_cases_rss.py
+          ls -l dist
+
+      - name: Publish to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: dist
+          enable_jekyll: false
