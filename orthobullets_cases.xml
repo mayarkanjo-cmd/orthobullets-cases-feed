@@ -4,20 +4,20 @@
 <title>Orthobullets Cases (last 24h)</title>
 <link>https://www.orthobullets.com/Site/ElasticSearch/StandardSearchTiles?contentType=5&amp;s=1,2,3,225,6,7,10</link>
 <description>Cases in the last 24 hours; includes doctor, first image, therapy snippet.</description>
-<lastBuildDate>Sun, 28 Sep 2025 05:39:24 +0000</lastBuildDate>
+<lastBuildDate>Mon, 29 Sep 2025 04:47:14 +0000</lastBuildDate>
 <item>
 <title>Orthobullets Security Token Service</title>
-<link>https://www.orthobullets.com:443/Site/Cases/View/c3042c41-8698-4591-9ece-f001b7424d6d</link>
-<guid isPermaLink='false'>719c3aefab09102bef27b6756f15838190546a6f</guid>
-<pubDate>Sat, 27 Sep 2025 20:34:56 +0000</pubDate>
+<link>https://www.orthobullets.com:443/Site/Cases/View/fe881e4b-f6c0-4391-b170-76f4cbe28d23</link>
+<guid isPermaLink='false'>b00f60390cdf8f29d272ba385c3badfc71624ff5</guid>
+<pubDate>Sun, 28 Sep 2025 04:42:34 +0000</pubDate>
 <enclosure url="https://www.orthobullets.com:443/svg/orthobullets-logo.svg" type="image/jpeg"/>
 <media:content url="https://www.orthobullets.com:443/svg/orthobullets-logo.svg" medium="image"/>
 </item>
 <item>
 <title>Orthobullets Security Token Service</title>
-<link>https://www.orthobullets.com:443/Site/Cases/View/fe881e4b-f6c0-4391-b170-76f4cbe28d23</link>
-<guid isPermaLink='false'>b00f60390cdf8f29d272ba385c3badfc71624ff5</guid>
-<pubDate>Sat, 27 Sep 2025 10:34:56 +0000</pubDate>
+<link>https://www.orthobullets.com:443/Site/Cases/View/c3042c41-8698-4591-9ece-f001b7424d6d</link>
+<guid isPermaLink='false'>719c3aefab09102bef27b6756f15838190546a6f</guid>
+<pubDate>Sun, 28 Sep 2025 04:42:34 +0000</pubDate>
 <enclosure url="https://www.orthobullets.com:443/svg/orthobullets-logo.svg" type="image/jpeg"/>
 <media:content url="https://www.orthobullets.com:443/svg/orthobullets-logo.svg" medium="image"/>
 </item>
