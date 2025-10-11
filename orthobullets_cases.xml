@@ -4,6 +4,22 @@
 <title>Orthobullets Cases (last 24h)</title>
 <link>https://www.orthobullets.com/Site/ElasticSearch/StandardSearchTiles?contentType=5&amp;s=1,2,3,225,6,7,10</link>
 <description>Cases in the last 24 hours; includes doctor, first image, therapy snippet.</description>
-<lastBuildDate>Fri, 10 Oct 2025 05:30:47 +0000</lastBuildDate>
+<lastBuildDate>Sat, 11 Oct 2025 04:16:53 +0000</lastBuildDate>
+<item>
+<title>Case - Type 3 left supracondylar fracture</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/0317d8a5-3d6f-492d-a09e-189d843a8b27</link>
+<guid isPermaLink='false'>cef224ac705cff53b96b989e112f335ec7076e0b</guid>
+<pubDate>Fri, 10 Oct 2025 21:12:18 +0000</pubDate>
+<enclosure url="https://www.orthobullets.com:443/ux-svg/ortho-loading.svg" type="image/jpeg"/>
+<media:content url="https://www.orthobullets.com:443/ux-svg/ortho-loading.svg" medium="image"/>
+</item>
+<item>
+<title>Orthobullets Security Token Service</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/edaf28bd-ee45-46aa-b211-0040fb7a9361</link>
+<guid isPermaLink='false'>b310cac57d64f4303909efda172c476117e0b8c9</guid>
+<pubDate>Fri, 10 Oct 2025 15:12:18 +0000</pubDate>
+<enclosure url="https://www.orthobullets.com:443/svg/orthobullets-logo.svg" type="image/jpeg"/>
+<media:content url="https://www.orthobullets.com:443/svg/orthobullets-logo.svg" medium="image"/>
+</item>
 </channel>
 </rss>
