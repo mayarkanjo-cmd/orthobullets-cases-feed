@@ -4,6 +4,22 @@
 <title>Orthobullets Cases (last 24h)</title>
 <link>https://www.orthobullets.com/Site/ElasticSearch/StandardSearchTiles?contentType=5&amp;s=1,2,3,225,6,7,10</link>
 <description>Cases in the last 24 hours; includes doctor, first image, therapy snippet.</description>
-<lastBuildDate>Thu, 13 Nov 2025 05:31:46 +0000</lastBuildDate>
+<lastBuildDate>Fri, 14 Nov 2025 04:19:17 +0000</lastBuildDate>
+<item>
+<title>Orthobullets Security Token Service</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/ba2e0fd7-e018-4695-8ff7-19b6423a6bba</link>
+<guid isPermaLink='false'>651822e4de73b108c900db3fde873cca6656a50a</guid>
+<pubDate>Thu, 13 Nov 2025 23:14:24 +0000</pubDate>
+<enclosure url="https://www.orthobullets.com:443/svg/orthobullets-logo.svg" type="image/jpeg"/>
+<media:content url="https://www.orthobullets.com:443/svg/orthobullets-logo.svg" medium="image"/>
+</item>
+<item>
+<title>Orthobullets Security Token Service</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/74b26fdf-f20d-4ab9-8440-fce327fa05fa</link>
+<guid isPermaLink='false'>611eca23ec3f61ff1e193c8ce34b24df201f804a</guid>
+<pubDate>Thu, 13 Nov 2025 22:14:24 +0000</pubDate>
+<enclosure url="https://www.orthobullets.com:443/svg/orthobullets-logo.svg" type="image/jpeg"/>
+<media:content url="https://www.orthobullets.com:443/svg/orthobullets-logo.svg" medium="image"/>
+</item>
 </channel>
 </rss>
