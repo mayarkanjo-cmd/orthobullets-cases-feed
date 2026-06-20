@@ -4,6 +4,14 @@
 <title>Orthobullets Cases (last 24h)</title>
 <link>https://www.orthobullets.com/Site/ElasticSearch/StandardSearchTiles?contentType=5&amp;s=1,2,3,225,6,7,10</link>
 <description>Cases in the last 24 hours; includes doctor, first image, therapy snippet.</description>
-<lastBuildDate>Fri, 19 Jun 2026 09:51:34 +0000</lastBuildDate>
+<lastBuildDate>Sat, 20 Jun 2026 07:44:16 +0000</lastBuildDate>
+<item>
+<title>Orthobullets Security Token Service</title>
+<link>https://www.orthobullets.com:443/Site/Cases/View/84fed070-e69f-49cd-8e05-76c843e595f2</link>
+<guid isPermaLink='false'>fc23b337d92ed70334d5f1311eb19e52950656b4</guid>
+<pubDate>Fri, 19 Jun 2026 15:40:12 +0000</pubDate>
+<enclosure url="https://www.orthobullets.com:443/svg/orthobullets-logo.svg" type="image/jpeg"/>
+<media:content url="https://www.orthobullets.com:443/svg/orthobullets-logo.svg" medium="image"/>
+</item>
 </channel>
 </rss>
